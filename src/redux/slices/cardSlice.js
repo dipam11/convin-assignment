@@ -30,8 +30,16 @@ const initialState = {
         url: "https://www.youtube.com/embed/iYFh_XAXSPk",
       },
     ],
+    "Comedy Video": [
+      {
+        id: "555555555555",
+        name: "Pyaar Ka Attyachaar - Ek Love Story",
+        category: "Stand Up Video",
+        url: "https://www.youtube.com/embed/AlNmcoavE1Y",
+      },
+    ],
   },
-  activeCategory: "",
+  activeCategory: "Educational Videos",
   history: [],
 };
 
