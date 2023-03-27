@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { message } from "antd";
 import { useDispatch } from "react-redux";
-import { cardActions } from "../../redux/slices/cardSlice";
+import { cardActions } from "../../redux/slices/data";
 import { useNavigate } from "react-router-dom";
 const AddCard = () => {
   const dispatch = useDispatch();

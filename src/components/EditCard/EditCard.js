@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { message } from "antd";
 import { useLocation, useNavigate } from "react-router-dom";
-import { cardActions } from "../../redux/slices/cardSlice";
+import { cardActions } from "../../redux/slices/data";
+
+
 const EditCard = () => {
   const location = useLocation();
   const dispatch = useDispatch();

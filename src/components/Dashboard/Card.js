@@ -2,7 +2,7 @@ import React from "react";
 import { Modal } from "antd";
 import { ExclamationCircleFilled } from "@ant-design/icons";
 import { useDispatch } from "react-redux";
-import { cardActions } from "../../redux/slices/cardSlice";
+import { cardActions } from "../../redux/slices/data";
 import { useNavigate } from "react-router-dom";
 const Card = ({ val }) => {
   const navigate = useNavigate();

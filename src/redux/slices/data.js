@@ -4,19 +4,19 @@ const initialState = {
   cardObj: {
     "Educational Videos": [
       {
-        id: "1111111111111111111111",
+        id: "1",
         name: "Java TutoriaL",
         category: "Educational Video",
         url: "https://www.youtube.com/embed/UmnCZ7-9yDY",
       },
       {
-        id: "222222222222222222222222222",
+        id: "2",
         name: "UI/UX Tutorial",
         category: "Educational Video",
         url: "https://www.youtube.com/embed/Cn2KgB_01mE",
       },
       {
-        id: "33333333333333333333333333333333",
+        id: "3",
         name: "SQL Tutorial",
         category: "Educational Video",
         url: "https://www.youtube.com/embed/p3qvj9hO_Bo",
@@ -24,7 +24,7 @@ const initialState = {
     ],
     "Gaming Videos": [
       {
-        id: "444444444444444",
+        id: "4",
         name: "Gekko Agent Trailer - VALORANT",
         category: "Gaming Video",
         url: "https://www.youtube.com/embed/iYFh_XAXSPk",
@@ -32,7 +32,7 @@ const initialState = {
     ],
     "Comedy Video": [
       {
-        id: "555555555555",
+        id: "5",
         name: "Pyaar Ka Attyachaar - Ek Love Story",
         category: "Stand Up Video",
         url: "https://www.youtube.com/embed/AlNmcoavE1Y",
